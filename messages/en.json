@@ -1,12 +1,195 @@
 {
   "navigation": {
     "home": "Home",
-    "services": "Services",
     "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "faq": "FAQ",
     "contact": "Contact"
   },
-  "home": {
-    "title": "Welcome to Our Agency",
-    "subtitle": "We deliver exceptional marketing solutions"
+  "hero": {
+    "subtitle": "Welcome to Sky Limit Pro",
+    "title": "Transform Your Digital Presence",
+    "description": "We specialize in UI/UX Design, Web Development, and Mobile Apps. Let's bring your vision to life with cutting-edge solutions.",
+    "cta_primary": "Get Started",
+    "cta_secondary": "View Portfolio"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "What We Offer",
+    "description": "We deliver comprehensive digital solutions tailored to your business needs",
+    "uiux": {
+      "title": "UI/UX Design",
+      "description": "Creating intuitive and engaging user experiences that convert visitors into customers"
+    },
+    "webdev": {
+      "title": "Web Development",
+      "description": "Building fast, scalable, and responsive websites with modern technologies"
+    },
+    "mobileapp": {
+      "title": "Mobile Apps",
+      "description": "Developing native and cross-platform mobile applications for iOS and Android"
+    },
+    "branding": {
+      "title": "Brand Identity",
+      "description": "Crafting unique brand identities that resonate with your target audience"
+    },
+    "ecommerce": {
+      "title": "E-commerce Solutions",
+      "description": "Building powerful online stores that drive sales and growth"
+    },
+    "seo": {
+      "title": "SEO & Marketing",
+      "description": "Optimizing your digital presence for maximum visibility and engagement"
+    }
+  },
+  "portfolio": {
+    "title": "Our Work",
+    "subtitle": "Portfolio",
+    "description": "Explore our latest projects and success stories",
+    "viewAll": "View All Projects",
+    "viewProject": "View Project",
+    "categories": {
+      "all": "All",
+      "uiux": "UI/UX",
+      "web": "Web",
+      "mobile": "Mobile",
+      "branding": "Branding"
+    }
+  },
+  "stats": {
+    "projects": "Projects Completed",
+    "clients": "Happy Clients",
+    "awards": "Awards Won",
+    "experience": "Years Experience"
+  },
+  "cta": {
+    "title": "Ready to Start Your Project?",
+    "description": "Let's collaborate and create something amazing together",
+    "button": "Get In Touch"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Who We Are",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower businesses with innovative digital solutions that drive growth and success"
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become the leading digital agency known for excellence, creativity, and results"
+    },
+    "values": {
+      "title": "Our Values",
+      "creativity": "Creativity",
+      "quality": "Quality",
+      "innovation": "Innovation",
+      "collaboration": "Collaboration"
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "The People Behind Sky Limit Pro"
+    },
+    "why": {
+      "title": "Why Choose Us",
+      "expertise": {
+        "title": "Expert Team",
+        "description": "Skilled professionals with years of experience"
+      },
+      "quality": {
+        "title": "Top Quality",
+        "description": "We deliver excellence in every project"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Always here when you need us"
+      },
+      "results": {
+        "title": "Proven Results",
+        "description": "Track record of successful projects"
+      }
+    }
+  },
+  "blog": {
+    "title": "Our Blog",
+    "subtitle": "Latest News & Insights",
+    "readMore": "Read More",
+    "share": "Share",
+    "categories": "Categories",
+    "recentPosts": "Recent Posts",
+    "tags": "Tags"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Got Questions? We've Got Answers",
+    "question1": {
+      "q": "How long does a typical project take?",
+      "a": "Project timelines vary depending on scope and complexity, but most projects are completed within 4-12 weeks."
+    },
+    "question2": {
+      "q": "What is your development process?",
+      "a": "We follow an agile methodology: Discovery → Design → Development → Testing → Launch → Support."
+    },
+    "question3": {
+      "q": "Do you offer ongoing support?",
+      "a": "Yes! We provide continuous support and maintenance packages to ensure your project stays up-to-date."
+    },
+    "question4": {
+      "q": "What technologies do you use?",
+      "a": "We use cutting-edge technologies including React, Next.js, Node.js, Flutter, and more."
+    },
+    "question5": {
+      "q": "Can you work with my existing brand?",
+      "a": "Absolutely! We can work within your existing brand guidelines or help you create a new identity."
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's Start Something Great",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "address": "123 Business Street, Suite 100",
+      "email": "hello@skylimitpro.com",
+      "phone": "+1 (555) 123-4567",
+      "hours": "Mon - Fri: 9:00 AM - 6:00 PM"
+    },
+    "social": {
+      "title": "Follow Us"
+    }
+  },
+  "footer": {
+    "description": "Leading digital agency specializing in UI/UX design, web development, and mobile apps.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact Info",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Subscribe to get latest updates",
+      "placeholder": "Your email",
+      "button": "Subscribe"
+    },
+    "copyright": "© 2024 Sky Limit Pro Agency. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "error404": {
+    "title": "404",
+    "subtitle": "Page Not Found",
+    "description": "The page you are looking for doesn't exist or has been moved.",
+    "button": "Go Back Home"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "viewMore": "View More",
+    "loading": "Loading..."
   }
 }

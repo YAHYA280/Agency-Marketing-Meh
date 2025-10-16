@@ -1,12 +1,195 @@
 {
   "navigation": {
     "home": "Accueil",
-    "services": "Services",
     "about": "À propos",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "faq": "FAQ",
     "contact": "Contact"
   },
-  "home": {
-    "title": "Bienvenue dans notre agence",
-    "subtitle": "Nous livrons des solutions marketing exceptionnelles"
+  "hero": {
+    "subtitle": "Bienvenue chez Sky Limit Pro",
+    "title": "Transformez Votre Présence Digitale",
+    "description": "Nous sommes spécialisés en design UI/UX, développement web et applications mobiles. Donnons vie à votre vision avec des solutions de pointe.",
+    "cta_primary": "Commencer",
+    "cta_secondary": "Voir Portfolio"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Ce Que Nous Offrons",
+    "description": "Nous fournissons des solutions numériques complètes adaptées à vos besoins",
+    "uiux": {
+      "title": "Design UI/UX",
+      "description": "Création d'expériences utilisateur intuitives et engageantes qui convertissent les visiteurs en clients"
+    },
+    "webdev": {
+      "title": "Développement Web",
+      "description": "Construction de sites web rapides, évolutifs et réactifs avec des technologies modernes"
+    },
+    "mobileapp": {
+      "title": "Applications Mobiles",
+      "description": "Développement d'applications mobiles natives et multiplateformes pour iOS et Android"
+    },
+    "branding": {
+      "title": "Identité de Marque",
+      "description": "Création d'identités de marque uniques qui résonnent avec votre public cible"
+    },
+    "ecommerce": {
+      "title": "Solutions E-commerce",
+      "description": "Construction de boutiques en ligne puissantes qui stimulent les ventes et la croissance"
+    },
+    "seo": {
+      "title": "SEO & Marketing",
+      "description": "Optimisation de votre présence numérique pour une visibilité et un engagement maximaux"
+    }
+  },
+  "portfolio": {
+    "title": "Nos Réalisations",
+    "subtitle": "Portfolio",
+    "description": "Découvrez nos derniers projets et nos réussites",
+    "viewAll": "Voir Tous Les Projets",
+    "viewProject": "Voir Le Projet",
+    "categories": {
+      "all": "Tous",
+      "uiux": "UI/UX",
+      "web": "Web",
+      "mobile": "Mobile",
+      "branding": "Branding"
+    }
+  },
+  "stats": {
+    "projects": "Projets Complétés",
+    "clients": "Clients Satisfaits",
+    "awards": "Prix Remportés",
+    "experience": "Ans d'Expérience"
+  },
+  "cta": {
+    "title": "Prêt à Démarrer Votre Projet?",
+    "description": "Collaborons et créons quelque chose d'extraordinaire ensemble",
+    "button": "Nous Contacter"
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "subtitle": "Qui Nous Sommes",
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Donner aux entreprises les moyens de réussir grâce à des solutions numériques innovantes"
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "description": "Devenir l'agence digitale leader reconnue pour son excellence, sa créativité et ses résultats"
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "creativity": "Créativité",
+      "quality": "Qualité",
+      "innovation": "Innovation",
+      "collaboration": "Collaboration"
+    },
+    "team": {
+      "title": "Rencontrez Notre Équipe",
+      "subtitle": "Les Personnes Derrière Sky Limit Pro"
+    },
+    "why": {
+      "title": "Pourquoi Nous Choisir",
+      "expertise": {
+        "title": "Équipe Experte",
+        "description": "Professionnels qualifiés avec des années d'expérience"
+      },
+      "quality": {
+        "title": "Qualité Supérieure",
+        "description": "Nous offrons l'excellence dans chaque projet"
+      },
+      "support": {
+        "title": "Support 24/7",
+        "description": "Toujours là quand vous avez besoin de nous"
+      },
+      "results": {
+        "title": "Résultats Prouvés",
+        "description": "Historique de projets réussis"
+      }
+    }
+  },
+  "blog": {
+    "title": "Notre Blog",
+    "subtitle": "Dernières Nouvelles & Insights",
+    "readMore": "Lire Plus",
+    "share": "Partager",
+    "categories": "Catégories",
+    "recentPosts": "Articles Récents",
+    "tags": "Tags"
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Des Questions? Nous Avons Les Réponses",
+    "question1": {
+      "q": "Combien de temps dure un projet typique?",
+      "a": "Les délais varient selon la portée et la complexité, mais la plupart des projets sont complétés en 4-12 semaines."
+    },
+    "question2": {
+      "q": "Quel est votre processus de développement?",
+      "a": "Nous suivons une méthodologie agile: Découverte → Design → Développement → Tests → Lancement → Support."
+    },
+    "question3": {
+      "q": "Offrez-vous un support continu?",
+      "a": "Oui! Nous fournissons des forfaits de support et maintenance pour garder votre projet à jour."
+    },
+    "question4": {
+      "q": "Quelles technologies utilisez-vous?",
+      "a": "Nous utilisons des technologies de pointe incluant React, Next.js, Node.js, Flutter, et plus."
+    },
+    "question5": {
+      "q": "Pouvez-vous travailler avec ma marque existante?",
+      "a": "Absolument! Nous pouvons travailler selon vos directives de marque ou vous aider à créer une nouvelle identité."
+    }
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Commençons Quelque Chose de Grand",
+    "form": {
+      "name": "Votre Nom",
+      "email": "Adresse Email",
+      "phone": "Numéro de Téléphone",
+      "subject": "Sujet",
+      "message": "Votre Message",
+      "submit": "Envoyer Le Message"
+    },
+    "info": {
+      "address": "123 Rue Business, Suite 100",
+      "email": "hello@skylimitpro.com",
+      "phone": "+1 (555) 123-4567",
+      "hours": "Lun - Ven: 9h00 - 18h00"
+    },
+    "social": {
+      "title": "Suivez-Nous"
+    }
+  },
+  "footer": {
+    "description": "Agence digitale leader spécialisée en design UI/UX, développement web et applications mobiles.",
+    "quickLinks": "Liens Rapides",
+    "services": "Services",
+    "contact": "Contact",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Abonnez-vous pour recevoir les dernières mises à jour",
+      "placeholder": "Votre email",
+      "button": "S'abonner"
+    },
+    "copyright": "© 2024 Sky Limit Pro Agency. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation"
+  },
+  "error404": {
+    "title": "404",
+    "subtitle": "Page Non Trouvée",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "button": "Retour à l'Accueil"
+  },
+  "common": {
+    "learnMore": "En Savoir Plus",
+    "getStarted": "Commencer",
+    "viewMore": "Voir Plus",
+    "loading": "Chargement..."
   }
 }

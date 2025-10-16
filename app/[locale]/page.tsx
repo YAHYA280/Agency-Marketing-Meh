@@ -1,43 +1,87 @@
 import { useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { HeroSection } from '@/components/sections/HeroSection';
+import { ServicesSection } from '@/components/sections/ServicesSection';
+import { PortfolioSection } from '@/components/sections/PortfolioSection';
+import { StatsSection } from '@/components/sections/StatsSection';
+import { CTASection } from '@/components/sections/CTASection';
 
 export default function Home({ params: { locale } }: { params: { locale: string } }) {
   setRequestLocale(locale);
-  const t = useTranslations('home');
+  const tHero = useTranslations('hero');
+  const tServices = useTranslations('services');
+  const tPortfolio = useTranslations('portfolio');
+  const tStats = useTranslations('stats');
+  const tCta = useTranslations('cta');
 
   return (
     <div className="min-h-screen">
-      <HeroSection title={t('title')} subtitle={t('subtitle')} />
+      {/* Section 1: Hero */}
+      <HeroSection
+        subtitle={tHero('subtitle')}
+        title={tHero('title')}
+        description={tHero('description')}
+        ctaPrimary={tHero('cta_primary')}
+        ctaSecondary={tHero('cta_secondary')}
+      />
 
-      {/* Placeholder for other sections */}
-      <section className="py-20 bg-muted/30">
-        <div className="container">
-          <h2 className="text-3xl font-bold text-center mb-4">Section 2</h2>
-          <p className="text-center text-muted-foreground">Content coming soon...</p>
-        </div>
-      </section>
+      {/* Section 2: Services */}
+      <ServicesSection
+        title={tServices('title')}
+        subtitle={tServices('subtitle')}
+        description={tServices('description')}
+        services={{
+          uiux: {
+            title: tServices('uiux.title'),
+            description: tServices('uiux.description')
+          },
+          webdev: {
+            title: tServices('webdev.title'),
+            description: tServices('webdev.description')
+          },
+          mobileapp: {
+            title: tServices('mobileapp.title'),
+            description: tServices('mobileapp.description')
+          },
+          branding: {
+            title: tServices('branding.title'),
+            description: tServices('branding.description')
+          },
+          ecommerce: {
+            title: tServices('ecommerce.title'),
+            description: tServices('ecommerce.description')
+          },
+          seo: {
+            title: tServices('seo.title'),
+            description: tServices('seo.description')
+          }
+        }}
+      />
 
-      <section className="py-20">
-        <div className="container">
-          <h2 className="text-3xl font-bold text-center mb-4">Section 3</h2>
-          <p className="text-center text-muted-foreground">Content coming soon...</p>
-        </div>
-      </section>
+      {/* Section 3: Portfolio */}
+      <PortfolioSection
+        title={tPortfolio('title')}
+        subtitle={tPortfolio('subtitle')}
+        description={tPortfolio('description')}
+        viewAll={tPortfolio('viewAll')}
+      />
 
-      <section className="py-20 bg-muted/30">
-        <div className="container">
-          <h2 className="text-3xl font-bold text-center mb-4">Section 4</h2>
-          <p className="text-center text-muted-foreground">Content coming soon...</p>
-        </div>
-      </section>
+      {/* Section 4: Stats */}
+      <StatsSection
+        stats={{
+          projects: tStats('projects'),
+          clients: tStats('clients'),
+          awards: tStats('awards'),
+          experience: tStats('experience')
+        }}
+      />
 
-      <section className="py-20">
-        <div className="container">
-          <h2 className="text-3xl font-bold text-center mb-4">Section 5</h2>
-          <p className="text-center text-muted-foreground">Content coming soon...</p>
-        </div>
-      </section>
+      {/* Section 5: CTA */}
+      <CTASection
+        title={tCta('title')}
+        description={tCta('description')}
+        button={tCta('button')}
+      />
     </div>
   );
 }

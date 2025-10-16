@@ -17,6 +17,12 @@ const config: Config = {
     },
     extend: {
       colors: {
+        // Sky Limit Pro Agency Color Palette
+        'agency-dark': '#222831',
+        'agency-gray': '#393E46',
+        'agency-cyan': '#00ADB5',
+        'agency-light': '#EEEEEE',
+
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
