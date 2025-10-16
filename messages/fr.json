@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Bienvenue dans notre agence",
+    "subtitle": "Nous livrons des solutions marketing exceptionnelles"
+  }
+}

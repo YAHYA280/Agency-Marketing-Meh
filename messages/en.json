@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Welcome to Our Agency",
+    "subtitle": "We deliver exceptional marketing solutions"
+  }
+}
