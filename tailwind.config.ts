@@ -18,10 +18,10 @@ const config: Config = {
     extend: {
       colors: {
         // Sky Limit Pro Agency Color Palette
-        'agency-dark': '#222831',
-        'agency-gray': '#393E46',
-        'agency-cyan': '#00ADB5',
-        'agency-light': '#EEEEEE',
+        'agency-dark': '#112D4E',    // Darkest blue - main dark backgrounds
+        'agency-gray': '#3F72AF',    // Medium blue - secondary backgrounds/accents
+        'agency-cyan': '#3F72AF',    // Medium blue - primary accent color
+        'agency-light': '#F9F7F7',   // Off-white - light backgrounds/text
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

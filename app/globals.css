@@ -5,49 +5,49 @@
 @layer base {
   :root {
     /* Sky Limit Pro Agency Theme - Light Mode */
-    --background: 0 0% 93%;
-    --foreground: 210 16% 18%;
-    --card: 0 0% 100%;
-    --card-foreground: 210 16% 18%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 210 16% 18%;
-    --primary: 183 100% 35%;
-    --primary-foreground: 0 0% 93%;
-    --secondary: 208 11% 23%;
-    --secondary-foreground: 0 0% 93%;
-    --muted: 0 0% 93%;
-    --muted-foreground: 208 11% 23%;
-    --accent: 183 100% 35%;
-    --accent-foreground: 0 0% 93%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 93%;
-    --border: 0 0% 85%;
-    --input: 0 0% 85%;
-    --ring: 183 100% 35%;
+    --background: 0 2% 98%;           /* F9F7F7 - Off-white background */
+    --foreground: 210 65% 19%;        /* 112D4E - Dark blue text */
+    --card: 0 0% 100%;                /* White cards */
+    --card-foreground: 210 65% 19%;   /* 112D4E - Dark blue text */
+    --popover: 0 0% 100%;             /* White popover */
+    --popover-foreground: 210 65% 19%; /* 112D4E - Dark blue text */
+    --primary: 210 48% 47%;           /* 3F72AF - Medium blue primary */
+    --primary-foreground: 0 2% 98%;   /* F9F7F7 - Light text on primary */
+    --secondary: 219 36% 88%;         /* DBE2EF - Light blue secondary */
+    --secondary-foreground: 210 65% 19%; /* 112D4E - Dark blue text */
+    --muted: 219 36% 88%;             /* DBE2EF - Light blue muted */
+    --muted-foreground: 210 48% 47%;  /* 3F72AF - Medium blue muted text */
+    --accent: 210 48% 47%;            /* 3F72AF - Medium blue accent */
+    --accent-foreground: 0 2% 98%;    /* F9F7F7 - Light text on accent */
+    --destructive: 0 84.2% 60.2%;     /* Keep destructive red */
+    --destructive-foreground: 0 2% 98%; /* F9F7F7 - Light text */
+    --border: 219 36% 88%;            /* DBE2EF - Light blue border */
+    --input: 219 36% 88%;             /* DBE2EF - Light blue input */
+    --ring: 210 48% 47%;              /* 3F72AF - Medium blue ring */
     --radius: 0.5rem;
   }
 
   .dark {
     /* Sky Limit Pro Agency Theme - Dark Mode */
-    --background: 210 16% 14%;
-    --foreground: 0 0% 93%;
-    --card: 208 11% 23%;
-    --card-foreground: 0 0% 93%;
-    --popover: 208 11% 23%;
-    --popover-foreground: 0 0% 93%;
-    --primary: 183 100% 35%;
-    --primary-foreground: 0 0% 93%;
-    --secondary: 208 11% 23%;
-    --secondary-foreground: 0 0% 93%;
-    --muted: 208 11% 23%;
-    --muted-foreground: 0 0% 80%;
-    --accent: 183 100% 35%;
-    --accent-foreground: 0 0% 93%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 93%;
-    --border: 208 11% 30%;
-    --input: 208 11% 30%;
-    --ring: 183 100% 35%;
+    --background: 210 65% 19%;        /* 112D4E - Dark blue background */
+    --foreground: 0 2% 98%;           /* F9F7F7 - Light text */
+    --card: 210 48% 35%;              /* Slightly lighter than background */
+    --card-foreground: 0 2% 98%;      /* F9F7F7 - Light text */
+    --popover: 210 48% 35%;           /* Slightly lighter than background */
+    --popover-foreground: 0 2% 98%;   /* F9F7F7 - Light text */
+    --primary: 210 48% 47%;           /* 3F72AF - Medium blue primary */
+    --primary-foreground: 0 2% 98%;   /* F9F7F7 - Light text */
+    --secondary: 219 36% 88%;         /* DBE2EF - Light blue secondary */
+    --secondary-foreground: 210 65% 19%; /* 112D4E - Dark text on light secondary */
+    --muted: 210 48% 35%;             /* Muted background */
+    --muted-foreground: 219 36% 88%;  /* DBE2EF - Light muted text */
+    --accent: 210 48% 47%;            /* 3F72AF - Medium blue accent */
+    --accent-foreground: 0 2% 98%;    /* F9F7F7 - Light text */
+    --destructive: 0 62.8% 30.6%;     /* Keep destructive red */
+    --destructive-foreground: 0 2% 98%; /* F9F7F7 - Light text */
+    --border: 210 48% 35%;            /* Border color */
+    --input: 210 48% 35%;             /* Input border */
+    --ring: 210 48% 47%;              /* 3F72AF - Ring color */
   }
 }
 
