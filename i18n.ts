@@ -5,11 +5,17 @@ import { notFound } from 'next/navigation';
 export const locales = ['en', 'fr'] as const;
 export const defaultLocale = 'en' as const;
 
-export default getRequestConfig(async ({ locale }) => {
+export default getRequestConfig(async ({ requestLocale }) => {
+  // Await the locale from requestLocale
+  let locale = await requestLocale;
+
   // Validate that the incoming `locale` parameter is valid
-  if (!locales.includes(locale as any)) notFound();
+  if (!locale || !locales.includes(locale as any)) {
+    locale = defaultLocale;
+  }
 
   return {
+    locale,
     messages: (await import(`./messages/${locale}.json`)).default
   };
 });

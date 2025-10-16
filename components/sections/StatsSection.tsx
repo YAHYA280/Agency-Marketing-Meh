@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useMemo } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { FaProjectDiagram, FaUsers, FaAward, FaClock } from 'react-icons/fa';
@@ -29,7 +29,7 @@ export function StatsSection({ stats }: StatsSectionProps) {
   const statsRef = useRef<(HTMLDivElement | null)[]>([]);
   const [counts, setCounts] = useState([0, 0, 0, 0]);
 
-  const statistics: Stat[] = [
+  const statistics: Stat[] = useMemo(() => [
     {
       icon: <FaProjectDiagram size={40} />,
       number: 250,
@@ -58,7 +58,7 @@ export function StatsSection({ stats }: StatsSectionProps) {
       label: stats.experience,
       color: 'from-green-500 to-teal-500'
     }
-  ];
+  ], [stats.projects, stats.clients, stats.awards, stats.experience]);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -102,7 +102,7 @@ export function StatsSection({ stats }: StatsSectionProps) {
     }, sectionRef);
 
     return () => ctx.revert();
-  }, []);
+  }, [statistics]);
 
   return (
     <section ref={sectionRef} className="relative py-20 lg:py-32 bg-agency-gray overflow-hidden">
