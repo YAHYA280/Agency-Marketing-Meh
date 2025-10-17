@@ -55,7 +55,8 @@ export function HeroSection({
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-[#2d1b69] via-[#1e0e4d] to-[#0f0728] pt-20"
+      className="relative min-h-screen flex items-center bg-gradient-to-br from-[#2d1b69] via-[#1e0e4d] to-[#0f0728] pt-20 border-none"
+      style={{ borderBottom: 'none', outline: 'none' }}
     >
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
@@ -120,18 +121,23 @@ export function HeroSection({
       </div>
 
       {/* Bottom wave */}
-      {/* Bottom wave */}
-      <div className="absolute bottom-0 left-0 right-0">
+      <div className="absolute bottom-0 left-0 right-0 w-full leading-[0]" style={{ lineHeight: 0 }}>
         <svg
           viewBox="0 0 1440 120"
-          fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-full"
+          className="w-full block"
+          preserveAspectRatio="none"
+          style={{
+            display: 'block',
+            width: '100%',
+            height: 'auto',
+            verticalAlign: 'bottom',
+            marginBottom: '-1px'
+          }}
         >
           <path
             d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 46.7C1200 53 1320 67 1380 73.3L1440 80V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z"
-            fill="currentColor"
-            className="text-white"
+            fill="#ffffff"
           />
         </svg>
       </div>
