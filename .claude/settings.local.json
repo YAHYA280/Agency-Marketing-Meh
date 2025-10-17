@@ -9,7 +9,12 @@
       "Bash(npm run dev)",
       "Bash(timeout:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfix: resolve Header component JSX syntax errors\n\n- Fixed missing opening <a> tags for social media links\n- Added proper social media icons (Facebook, Twitter)\n- Improved header styling with dynamic colors based on scroll state\n- Added search button and improved CTA button design\n- Simplified mobile menu layout\n- Enhanced transitions and hover effects\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: add 3D animated phone component\n\n- Created AnimatedPhone component using Three.js\n- Implemented interactive dashboard UI with real-time animations\n- Added floating app icons around the phone\n- Included particle system for ambient effects\n- Phone displays animated analytics, notifications, and stats\n- Smooth rotation and floating animations\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git commit:*)",
+      "Bash(git rm:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []
